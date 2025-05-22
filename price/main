@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>캠핑카 종류별 가격 비교</title>
+  <style>
+
+    .container {
+      padding: 30px;
+    }
+
+    .card {
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      padding: 20px;
+      margin-bottom: 30px;
+      display: flex;
+      align-items: flex-start;
+      gap: 20px;
+      box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+    }
+
+    .card img {
+      width: 200px;
+      height: 130px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+
+    .card-info {
+      flex: 1;
+    }
+
+    .info-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+    }
+
+    .info-table td {
+      padding: 6px 10px;
+      border-bottom: 1px solid #eee;
+    }
+
+    .info-table td:first-child {
+      font-weight: bold;
+      width: 100px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>캠핑카 종류별 가격 비교</h1>
+    <p>종류별로 자세히 확인해보세요!</p>
+  </header>
+
+  <div class="container">
+    
+    <!-- ✅ 모터홈 카드 -->
+    <section class="card">
+      <img src="images/motorhome.jpg" alt="모터홈 사진">
+      <div class="card-info">
+        <h2>모터홈</h2>
+        <p>자가 주행이 가능한 캠핑카로, 이동과 숙박이 한 번에!</p>
+        <table class="info-table">
+          <tr>
+            <td>수용 인원</td>
+            <td>4명</td>
+          </tr>
+          <tr>
+            <td>가격</td>
+            <td>₩150,000</td>
+          </tr>
+          <tr>
+            <td>옵션</td>
+            <td>TV, 냉장고, 화장실, 주방</td>
+          </tr>
+        </table>
+      </div>
+    </section>
+
+    <!-- ✅ 카라반 카드 -->
+    <section class="card">
+      <img src="images/caravan.jpg" alt="카라반 사진">
+      <div class="card-info">
+        <h2>카라반</h2>
+        <p>차량에 연결하여 견인하는 구조, 넓은 내부와 고정형 캠핑에 적합!</p>
+        <table class="info-table">
+          <tr>
+            <td>수용 인원</td>
+            <td>3명</td>
+          </tr>
+          <tr>
+            <td>가격</td>
+            <td>₩100,000</td>
+          </tr>
+          <tr>
+            <td>옵션</td>
+            <td>냉장고, 전자렌지, 간이 침대</td>
+          </tr>
+        </table>
+      </div>
+    </section>
+
+    <!-- ✅ 캠핑 트레일러 카드 -->
+    <section class="card">
+      <img src="images/trailer.jpg" alt="캠핑 트레일러 사진">
+      <div class="card-info">
+        <h2>캠핑 트레일러</h2>
+        <p>소형 차량도 견인 가능한 가벼운 캠핑 트레일러</p>
+        <table class="info-table">
+          <tr>
+            <td>수용 인원</td>
+            <td>2명</td>
+          </tr>
+          <tr>
+            <td>가격</td>
+            <td>₩80,000</td>
+          </tr>
+          <tr>
+            <td>옵션</td>
+            <td>간이 침대, 간단한 조리기구</td>
+          </tr>
+        </table>
+      </div>
+    </section>
+
+  </div>
+
+</body>
+</html>
